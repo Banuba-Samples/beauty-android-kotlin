@@ -4,14 +4,12 @@ In both cases the [Makeup effect](https://docs.banuba.com/face-ar-sdk/generated/
 
 # Getting Started
 
-1. Get the latest Banuba SDK archive for Android and the client token. Please fill in our form on [form on banuba.com](https://www.banuba.com/face-filters-sdk) website, or contact us via [info@banuba.com](mailto:info@banuba.com).
-2. Copy `aar` files from the Banuba SDK archive into `libs` dir:
+1. Copy `aar` files from the Banuba SDK archive into `libs` dir:
     `BNBEffectPlayer/bin/banuba_sdk/banuba_sdk-release.aar` => `beauty-android-kotlin/libs/`
     `BNBEffectPlayer/banuba_effect_player-release.aar` => `beauty-android-kotlin/libs/`
-3. Copy and Paste your banuba client token into appropriate section of `beauty-android-kotlin/client_token/com/banuba/sdk/example/common/BanubaClientToken.kt` with “” symbols.
-4. Get and unpack the latest version of `Makeup` effect from [here](https://docs.banuba.com/face-ar-sdk-v1/overview/demo_face_filters).
+2. Get and unpack the latest version of `Makeup` effect from [here](https://docs.banuba.com/face-ar-sdk-v1/overview/demo_face_filters).
       The `Makeup` folder should be located in the `beauty-android-kotlin/app/src/main/assets/bnb-resources/effects/` folder.
-5. Open the project in Android Studio and run the necessary target using the usual steps.
+3. Open the project in Android Studio and run the necessary target using the usual steps.
 
 # Contributing
 
